@@ -65,7 +65,7 @@ def chromatic(X):
 
 def CR(X, colors):
 	# Compute the competitive ratio
-	bag = {}
+	bag = set()
 	count = 0
 	for color in colors:
 		if color not in bag:
